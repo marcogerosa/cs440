@@ -15,8 +15,7 @@ class FileInputStream {
 }
 
 
-class EndlessFileInputStream extends FileInputStream
-{
+class EndlessFileInputStream extends FileInputStream {
    public int read() {
        if (file.endOfFile() == true) {
            position = 0;
