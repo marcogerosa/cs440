@@ -19,6 +19,6 @@ print("Server listening on localhost:8080...")
 while True:
     client_socket, addr = server_socket.accept()
     # TODO: Receive data from client
-    # TODO: Parse the request
-    # TODO: Send a basic response
+    # TODO: Parse the request (call your function)
+    # TODO: Send a basic response (e.g., "Hello World!")
     client_socket.close()
